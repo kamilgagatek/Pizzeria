@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(77, 127, 162);
+    font-family: "Barlow", sans-serif;
+}
+#topbar {
+    width: 310px;
+    text-align: center;
+    margin: auto;
+    background-color: rgb(20, 98, 146);
+    height: 60px;
+    padding: 10px;
+}
+#pizzerianame {
+    font-size: 45px;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+#motto {
+    width: 310px;
+    padding: 10px;
+    background-color: rgb(232, 226, 226);
+    margin: auto;
+    margin-top: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+#m1 {
+    width: 80px;
+    padding-right: 8px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px dotted black;
+}
+#img1 {
+    width: 80px;
+}
+#m2 {
+    width: 220px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#slogan {
+    font-size: 20px;
+}
+#types-available {
+    width: 330px;
+    height: 289px;
+    margin: 10px auto auto auto;
+}
+#types-menu {
+    display: flex;
+    flex-wrap: wrap;
+    height: 69px;
+    justify-content: space-between;
+}
+.types {
+    width: 160px;
+    height: 30px;
+    background-color: rgb(19, 141, 78);
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#t3, #t4 {
+    margin-top: 5px;
+}
+.choice {
+    color: white;
+}
+#pizza-description {
+    margin-top: 10px;
+    padding: 10px;
+    height: 220px;
+    background-color: rgb(184, 175, 175);
+}
+.pizza-image {
+    width: 150px;
+    max-height: 200px;
+    float: left;
+    padding: 5px;
+}
+.title {
+    color: white;
+    font-size: 25px;
+}
+.presentation {
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+}
+.types:hover {
+    transition: 0.3s;
+    background-color: rgb(20, 98, 146);
+}
